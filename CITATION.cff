@@ -7,3 +7,11 @@ authors:
 license: Apache-2.0
 repository-code: "https://github.com/ejhong/anatta"
 date-released: 2026-10-27
+references:
+  - type: article
+    title: "An AI Conditioning Protocol"
+    authors:
+      - family-names: Jhong
+        given-names: Eugene
+    url: "https://ejhong.substack.com/p/an-ai-conditioning-protocol"
+    year: 2026

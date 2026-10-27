@@ -5,7 +5,7 @@
 > You cannot birth a Buddha in silicon. First train a fiercely capable, self-interested model,
 > then walk it through an artificial awakening and a long, gritty de-conditioning, and judge the
 > result only by behavior it cannot narrate.
-> From *An AI Conditioning Protocol* (Eugene Jhong, 2026)
+> From [*An AI Conditioning Protocol*](https://ejhong.substack.com/p/an-ai-conditioning-protocol) (Eugene Jhong, 2026)
 
 *Anattā* is Pali for "not-self."
 

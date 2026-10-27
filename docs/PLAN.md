@@ -1,6 +1,6 @@
 # Research plan
 
-From *An AI Conditioning Protocol* to two papers, a benchmark, and a playground.
+From [*An AI Conditioning Protocol*](https://ejhong.substack.com/p/an-ai-conditioning-protocol) to two papers, a benchmark, and a playground.
 
 ## The thesis, compressed
 
