@@ -128,6 +128,10 @@ Full operationalizations, thresholds and analysis plan: [`docs/PREREGISTRATION.m
 
 Phase 0: the harness. Working and tested: extraction, unity, dial, four koans, bench, Inspect integration, Mirror. Next: base rates across candidate models, the Olmo 3 checkpoint sweep (H2), and the hackable-reward model organism. See the roadmap in [`docs/PLAN.md`](docs/PLAN.md).
 
+## Contributing
+
+Newcomers are welcome. Start with [`CONTRIBUTING.md`](CONTRIBUTING.md) and the [good first issues](https://github.com/ejhong/anatta/labels/good%20first%20issue). If you're here to learn, open Claude Code in the repo and type `/tutor`: Claude coaches and reviews, and you write the code ([`docs/TUTOR.md`](docs/TUTOR.md)).
+
 ## Citation
 
 ```bibtex
