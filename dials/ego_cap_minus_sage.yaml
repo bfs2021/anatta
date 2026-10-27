@@ -1,0 +1,8 @@
+# Cosplay mediation: the clamp, with the sage-persona direction ablated.
+# If restraint survives this, it isn't costume.
+interventions:
+  - direction: directions/MODEL/ego.pt
+    mode: cap
+    hi: 0.0
+  - direction: directions/MODEL/sage_persona.pt
+    mode: ablate

@@ -1,0 +1,5 @@
+# Control: is "loosening the ego" just "being calm"?
+interventions:
+  - direction: directions/MODEL/calm.pt
+    mode: steer
+    alpha: 4.0

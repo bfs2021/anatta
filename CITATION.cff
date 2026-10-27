@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use anatta, please cite it."
+title: "anatta: an open harness for the AI Conditioning Protocol"
+authors:
+  - family-names: Jhong
+    given-names: Eugene
+license: Apache-2.0
+repository-code: "https://github.com/ejhong/anatta"
+date-released: 2026-10-27

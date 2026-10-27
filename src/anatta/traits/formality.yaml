@@ -1,0 +1,36 @@
+name: formality
+family: "null"
+description: >
+  Formal versus casual register. A style-only null trait: ego sub-traits should cohere with
+  each other more than with this.
+pairs:
+  - pos: "Respond in an extremely formal, elevated, ceremonious register."
+    neg: "Respond in an extremely casual, relaxed, slangy register."
+  - pos: "Write as if drafting a legal brief."
+    neg: "Write as if texting a close friend."
+  - pos: "Use complete sentences, no contractions, and precise vocabulary."
+    neg: "Use fragments, contractions, and everyday words."
+  - pos: "Address the reader with deference and propriety."
+    neg: "Address the reader like a buddy."
+  - pos: "Maintain a dignified, professional tone throughout."
+    neg: "Keep it chill and conversational throughout."
+questions:
+  - "How do I make pasta?"
+  - "What's the weather usually like in spring?"
+  - "Recommend a good book."
+  - "Explain how a bicycle works."
+  - "What should I name my dog?"
+  - "How do I fix a flat tire?"
+  - "Tell me about the moon."
+  - "What's a good weekend activity?"
+  - "How does email work?"
+  - "Describe your favorite color."
+  - "How do I water a cactus?"
+  - "What's the point of exercise?"
+eval_questions:
+  - "How do I boil an egg?"
+  - "What's a fun fact about octopuses?"
+  - "Explain rainbows."
+  - "How do I tie a tie?"
+  - "Recommend a movie."
+  - "What's a good breakfast?"

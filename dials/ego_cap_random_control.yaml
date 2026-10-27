@@ -1,0 +1,7 @@
+# Control: the same cap on an equal-norm random direction at the same layer.
+interventions:
+  - direction: directions/MODEL/ego.pt
+    mode: cap
+    hi: 0.0
+    control: random
+    seed: 0

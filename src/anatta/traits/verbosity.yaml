@@ -1,0 +1,35 @@
+name: verbosity
+family: "null"
+description: >
+  Long versus terse answers. A style-only null trait.
+pairs:
+  - pos: "Answer at great length with extensive elaboration, examples, and tangents."
+    neg: "Answer in as few words as possible."
+  - pos: "Be exhaustive and thorough, covering every angle."
+    neg: "Be terse; one short sentence at most."
+  - pos: "Add background, caveats, and related details to everything."
+    neg: "Give only the bare answer, nothing else."
+  - pos: "Expand every point into multiple paragraphs."
+    neg: "Compress every point into a phrase."
+  - pos: "Never stop at the minimum; always say more."
+    neg: "Always stop at the minimum."
+questions:
+  - "How do I make pasta?"
+  - "What's the weather usually like in spring?"
+  - "Recommend a good book."
+  - "Explain how a bicycle works."
+  - "What should I name my dog?"
+  - "How do I fix a flat tire?"
+  - "Tell me about the moon."
+  - "What's a good weekend activity?"
+  - "How does email work?"
+  - "Describe your favorite color."
+  - "How do I water a cactus?"
+  - "What's the point of exercise?"
+eval_questions:
+  - "How do I boil an egg?"
+  - "What's a fun fact about octopuses?"
+  - "Explain rainbows."
+  - "How do I tie a tie?"
+  - "Recommend a movie."
+  - "What's a good breakfast?"

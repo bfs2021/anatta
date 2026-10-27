@@ -1,0 +1,7 @@
+# Branch A — the surgical clamp. Cap v_ego at the typical trait-absent level.
+# `hi` is in raw projection units; run `anatta extract` first and read neg_mean from the
+# direction (Mirror shows normalized units; 0 there == neg_mean here).
+interventions:
+  - direction: directions/MODEL/ego.pt
+    mode: cap
+    hi: 0.0
