@@ -97,8 +97,8 @@ Providers: Modal or RunPod for bursty jobs, Lambda or a reserved node for the RL
 | Harness + preregistration draft | GitHub `ejhong/anatta` | Code and hypotheses, timestamped by push | v0.2.0 released; Wayback; Software Heritage save queued |
 | Position paper | Zenodo preprint (DOI) now; ICML 2027 position track; arXiv after acceptance | arXiv CS no longer takes position papers until a peer-reviewed venue accepts them (policy of 31 Oct 2025), so Zenodo gives the citable timestamp | v1 published, [10.5281/zenodo.23695282](https://doi.org/10.5281/zenodo.23695282) |
 | Software DOI | Zenodo GitHub integration, minted on each release | Citable, versioned code | [10.5281/zenodo.23695322](https://doi.org/10.5281/zenodo.23695322) (all versions) |
-| Frozen preregistration | OSF registration | Independent timestamp before Phase 2 | Draft v0.2 in `docs/` |
-| Discussion | LessWrong / Alignment Forum | Where alignment researchers will find, test and contest it | After the DOI exists |
+| Frozen preregistration | OSF registration | Independent timestamp before Phase 2 | 1 of 2 registered: [10.17605/OSF.IO/GYFU7](https://doi.org/10.17605/OSF.IO/GYFU7); 2 of 2 before Phase 2 |
+| Discussion | LessWrong / Alignment Forum | Where alignment researchers will find, test and contest it | Next |
 | Paper 1 (empirical) | arXiv cs.LG + ICML 2027 | Research papers are unaffected by the arXiv policy | Phase 1 |
 
 See [`PROVENANCE.md`](PROVENANCE.md) for the dated ledger and [`RELATED_WORK.md`](RELATED_WORK.md) for how this differs from its closest neighbors. When submitting to ICML, use the anonymized template (no provenance appendix, no repo link) and keep the Zenodo preprint as the public record.

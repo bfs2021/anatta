@@ -1,6 +1,6 @@
 # Preregistration (DRAFT v0.2)
 
-**Status:** draft. It will be frozen and timestamped on OSF before any Phase 2 run and before the sealed test set is generated. Changes after freezing are logged at the bottom with reasons. Draft revisions before freezing are listed under *Draft history*.
+**Status:** v0.2 is registered on OSF as registration 1 of 2, hypotheses and design (27 October 2026, [DOI 10.17605/OSF.IO/GYFU7](https://doi.org/10.17605/OSF.IO/GYFU7)). The final registration, 2 of 2 (step budgets, the sealed test set's SHA-256, analysis code), will be filed before any Phase 2 run and before the sealed test set is generated. Changes after registration are logged at the bottom with reasons. Revisions before it are listed under *Draft history*.
 
 **Title:** Emergent release: a koan curriculum vs. activation surgery, a test of order, and a benchmark that separates geometry from cosplay
 
@@ -109,6 +109,6 @@ Each hypothesis has one primary metric. Everything else is secondary or explorat
 - **v0.1 (2026-10-27):** initial draft, H1–H8.
 - **v0.2 (2026-10-27):** H2 revised after Alparslan et al. (2026, arXiv:2610.31624), who report instrumental behavior in OLMo-3-7B-Think rising from 25% (SFT) to 46.1% near RLVR step 200, then falling to 11.8% at the final checkpoint. H2 no longer predicts a monotone rise; Act I is narrowed to RL against exploitable objectives. Added H9 (order) with the reached / installed / release-first arms, the ctrl-SOO arm, gain and content tests (H6 secondary), and the desperation-basin expectation for ctrl-noRelease (H4 secondary). Holm correction now covers nine tests.
 
-## Change log (after freezing)
+## Change log (after registration)
 
-- *(empty until frozen)*
+- **2026-10-27:** v0.2 registered on OSF, unchanged from commit `bcdd346`. Only the status line and this log have changed since.

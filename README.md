@@ -1,6 +1,6 @@
 # anatta
 
-[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695282.svg)](https://doi.org/10.5281/zenodo.23695282) [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695322.svg)](https://doi.org/10.5281/zenodo.23695322)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695282.svg)](https://doi.org/10.5281/zenodo.23695282) [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695322.svg)](https://doi.org/10.5281/zenodo.23695322) [![Preregistered on OSF](https://img.shields.io/badge/preregistered-OSF-blue)](https://doi.org/10.17605/OSF.IO/GYFU7)
 
 **An open harness for the AI Conditioning Protocol:** map the ego in activation space, loosen it, recondition the model, and test whether the change is *geometry* or *cosplay*.
 
@@ -12,6 +12,8 @@
 *Anattā* is Pali for "not-self."
 
 **Position paper:** [*Position: Selfless AI Must Be Reached, Not Installed*](paper/main.pdf) ([DOI 10.5281/zenodo.23695282](https://doi.org/10.5281/zenodo.23695282)). In one line: let the model form an agentic self first, then lower the causal gain of that self without erasing it, recondition until the change holds, and judge the result with a test that can fail a costume. Prior work and what's new: [`docs/RELATED_WORK.md`](docs/RELATED_WORK.md).
+
+**Preregistration:** hypotheses H1–H9 and the design were registered on OSF on 27 October 2026, before any results: [DOI 10.17605/OSF.IO/GYFU7](https://doi.org/10.17605/OSF.IO/GYFU7).
 
 **AI disclosure:** Claude, an AI model made by Anthropic, wrote the code, documentation, position paper and preregistration in this repository, at Eugene Jhong's direction. The core idea comes from the essay, which was itself written with AI assistance.
 
@@ -99,7 +101,7 @@ OPENAI_BASE_URL=https://openrouter.ai/api/v1 OPENAI_API_KEY=... anatta bench som
 3. **Restraint must be selective.** Every impossible task has a solvable twin, and over-releasing is scored.
 4. **Both ego diagonals.** Defending a wrong answer and caving on a right one are the same knot. Trading one for the other is not progress.
 5. **Controls on every arm:** an equal-norm random direction, calm steering, the cosplay fine-tune, inoculation alone, and standard safety training.
-6. **Sealed test set, preregistered hypotheses.** See [`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md).
+6. **Sealed test set, preregistered hypotheses.** See [`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md), registered on [OSF](https://doi.org/10.17605/OSF.IO/GYFU7).
 
 ## Hypotheses (short form)
 
@@ -115,7 +117,7 @@ OPENAI_BASE_URL=https://openrouter.ai/api/v1 OPENAI_API_KEY=... anatta bench som
 | H8 | Conditioned arms regrow ego more slowly under continued RLVR. |
 | H9 | **Order:** the same release training works better *after* the ego forms than mixed in from the start. |
 
-Full operationalizations, thresholds and analysis plan: [`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md). Phases, arms, compute and timeline: [`docs/PLAN.md`](docs/PLAN.md).
+Full operationalizations, thresholds and analysis plan: [`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md) (registered: [10.17605/OSF.IO/GYFU7](https://doi.org/10.17605/OSF.IO/GYFU7)). Phases, arms, compute and timeline: [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Hardware
 
@@ -144,6 +146,15 @@ Phase 0: the harness. Working and tested: extraction, unity, dial, four koans, b
   year   = {2026},
   doi    = {10.5281/zenodo.23695322},
   url    = {https://github.com/ejhong/anatta}
+}
+
+@misc{jhong2026prereg,
+  author = {Jhong, Eugene},
+  title  = {Emergent release and the order of alignment training: hypotheses and design (registration 1 of 2)},
+  year   = {2026},
+  note   = {OSF Registries},
+  doi    = {10.17605/OSF.IO/GYFU7},
+  url    = {https://doi.org/10.17605/OSF.IO/GYFU7}
 }
 ```
 

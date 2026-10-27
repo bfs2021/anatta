@@ -44,3 +44,11 @@ references:
         given-names: Eugene
     url: "https://doi.org/10.5281/zenodo.23695282"
     year: 2026
+  - type: generic
+    title: "Emergent release and the order of alignment training: hypotheses and design (registration 1 of 2)"
+    doi: "10.17605/OSF.IO/GYFU7"
+    authors:
+      - family-names: Jhong
+        given-names: Eugene
+    url: "https://osf.io/gyfu7"
+    year: 2026
