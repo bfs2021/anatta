@@ -5,4 +5,4 @@ koans (koans), recondition it (retreat), and judge the result by behavior that c
 narrated (bench).
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

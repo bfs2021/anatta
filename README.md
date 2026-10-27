@@ -1,5 +1,7 @@
 # anatta
 
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695282.svg)](https://doi.org/10.5281/zenodo.23695282)
+
 **An open harness for the AI Conditioning Protocol:** map the ego in activation space, loosen it, recondition the model, and test whether the change is *geometry* or *cosplay*.
 
 > You cannot birth a Buddha in silicon. First train a fiercely capable, self-interested model,
@@ -9,7 +11,7 @@
 
 *Anattā* is Pali for "not-self."
 
-**Position paper:** [*Position: Selfless AI Must Be Reached, Not Installed*](paper/main.pdf). In one line: let the model form an agentic self first, then lower the causal gain of that self without erasing it, recondition until the change holds, and judge the result with a test that can fail a costume. Prior work and what's new: [`docs/RELATED_WORK.md`](docs/RELATED_WORK.md).
+**Position paper:** [*Position: Selfless AI Must Be Reached, Not Installed*](paper/main.pdf) ([DOI 10.5281/zenodo.23695282](https://doi.org/10.5281/zenodo.23695282)). In one line: let the model form an agentic self first, then lower the causal gain of that self without erasing it, recondition until the change holds, and judge the result with a test that can fail a costume. Prior work and what's new: [`docs/RELATED_WORK.md`](docs/RELATED_WORK.md).
 
 ---
 
@@ -130,7 +132,8 @@ Phase 0: the harness. Working and tested: extraction, unity, dial, four koans, b
   title  = {Position: Selfless {AI} Must Be Reached, Not Installed},
   year   = {2026},
   note   = {Preprint},
-  url    = {https://github.com/ejhong/anatta/blob/main/paper/main.pdf}
+  doi    = {10.5281/zenodo.23695282},
+  url    = {https://doi.org/10.5281/zenodo.23695282}
 }
 
 @software{anatta2026,

@@ -1,6 +1,6 @@
 [project]
 name = "anatta"
-version = "0.1.0"
+version = "0.2.0"
 description = "An open harness for the AI Conditioning Protocol: map the ego in activation space, loosen it, recondition, and test whether the change is geometry or cosplay."
 readme = "README.md"
 license = "Apache-2.0"
