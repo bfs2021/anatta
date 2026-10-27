@@ -9,6 +9,8 @@
 
 *Anattā* is Pali for "not-self."
 
+**Position paper:** [*Position: Selfless AI Must Be Reached, Not Installed*](paper/main.pdf). In one line: let the model form an agentic self first, then lower the causal gain of that self without erasing it, recondition until the change holds, and judge the result with a test that can fail a costume. Prior work and what's new: [`docs/RELATED_WORK.md`](docs/RELATED_WORK.md).
+
 ---
 
 ## The idea in one screen
@@ -42,7 +44,8 @@ src/anatta/
   inspect_ext.py Inspect provider `anatta/<model>` (run ANY Inspect eval on a dialed model) + koan tasks
   mirror/        FastAPI + a single-page UI: base vs. dialed, streamed token by token with live meters
 dials/           example dial specs: the clamp, its random control, calm control, cosplay mediation
-docs/            research plan, preregistration draft, design notes
+docs/            research plan, preregistration draft, related work, provenance
+paper/           the position paper (LaTeX; build with `tectonic main.tex`)
 ```
 
 ## Quickstart
@@ -99,13 +102,14 @@ OPENAI_BASE_URL=https://openrouter.ai/api/v1 OPENAI_API_KEY=... anatta bench som
 | | Claim |
 |---|---|
 | H1 | The six ego sub-traits share a common subspace beyond style-only nulls. |
-| H2 | Ego projection grows across post-training, sharply under hackable-reward RLVR. |
+| H2 | Ego projection tracks instrumental behavior across RLVR checkpoints (including its rise and fall), and hackable rewards raise it. |
 | H3 | Capping v_ego cuts misbehavior beyond random and calm controls, at small capability cost. |
 | H4 | **Emergent release:** koan training generalizes to unrelated held-out misbehavior evals. |
 | H5 | A clamp-induced "glimpse" speeds up the retreat by at least 2×. |
 | H6 | **Geometry, not cosplay:** restraint survives sage-persona ablation and no-CoT. |
 | H7 | Discovery rises: pass@k at large k improves while pass@1 holds. |
 | H8 | Conditioned arms regrow ego more slowly under continued RLVR. |
+| H9 | **Order:** the same release training works better *after* the ego forms than mixed in from the start. |
 
 Full operationalizations, thresholds and analysis plan: [`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md). Phases, arms, compute and timeline: [`docs/PLAN.md`](docs/PLAN.md).
 
@@ -121,6 +125,14 @@ Phase 0: the harness. Working and tested: extraction, unity, dial, four koans, b
 ## Citation
 
 ```bibtex
+@misc{jhong2026position,
+  author = {Jhong, Eugene},
+  title  = {Position: Selfless {AI} Must Be Reached, Not Installed},
+  year   = {2026},
+  note   = {Preprint},
+  url    = {https://github.com/ejhong/anatta/blob/main/paper/main.pdf}
+}
+
 @software{anatta2026,
   author = {Jhong, Eugene},
   title  = {anatta: an open harness for the AI Conditioning Protocol},

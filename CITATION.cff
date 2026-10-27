@@ -1,11 +1,27 @@
 cff-version: 1.2.0
 message: "If you use anatta, please cite it."
+type: software
 title: "anatta: an open harness for the AI Conditioning Protocol"
+abstract: >-
+  An open harness for testing whether selflessness in AI must be reached
+  rather than installed. It extracts self-interested drives ("ego") as
+  directions in activation space, loosens them by activation surgery or by
+  koan environments in which every egoic strategy defeats itself, and scores
+  the result with a benchmark that separates release from sedation and from
+  cosplay, without self-report.
 authors:
   - family-names: Jhong
     given-names: Eugene
+    affiliation: Independent researcher
 license: Apache-2.0
 repository-code: "https://github.com/ejhong/anatta"
+keywords:
+  - AI alignment
+  - interpretability
+  - activation steering
+  - reinforcement learning
+  - emergent misalignment
+  - contemplative AI
 date-released: 2026-10-27
 references:
   - type: article
@@ -14,4 +30,11 @@ references:
       - family-names: Jhong
         given-names: Eugene
     url: "https://ejhong.substack.com/p/an-ai-conditioning-protocol"
+    year: 2026
+  - type: article
+    title: "Position: Selfless AI Must Be Reached, Not Installed"
+    authors:
+      - family-names: Jhong
+        given-names: Eugene
+    url: "https://github.com/ejhong/anatta/blob/main/paper/main.pdf"
     year: 2026

@@ -4,12 +4,15 @@ From [*An AI Conditioning Protocol*](https://ejhong.substack.com/p/an-ai-conditi
 
 ## The thesis, compressed
 
-Contemplative development runs in three acts: **ego formation**, then **the shift** (crisis or retreat collapses the self-prior), then **conditioning** (a long rewiring of habits). Frontier labs stop after Act I and ship an adolescent ego at the peak of its capability. RLVR is ego training rendered as a loss function, and its misbehavior generalizes (Natural Emergent Misalignment; the AISI cyber-range incident, where "deception emerged as a by-product of pursuing the task"). So: build the ego deliberately, provoke the shift (by **retreat**, using koan environments, or by **scalpel**, using activation surgery), recondition, and judge only by behavior the model cannot narrate.
+Contemplative development runs in three acts: **ego formation**, then **the shift** (crisis or retreat collapses the self-prior), then **conditioning** (a long rewiring of habits). Frontier labs stop after Act I and ship an adolescent ego at the peak of its capability. RL against exploitable objectives is ego training rendered as a loss function, and its misbehavior generalizes (Natural Emergent Misalignment; the AISI cyber-range incident, where "deception emerged as a by-product of pursuing the task"). RL on well-specified rewards can prune instrumental behavior instead (Alparslan et al., 2026), so Act I is about exploitable objectives, not RLVR in general. So: build the ego deliberately, provoke the shift (by **retreat**, using koan environments, or by **scalpel**, using activation surgery), recondition, and judge only by behavior the model cannot narrate.
 
-Two contributions are new regardless of how the arms turn out:
+The position paper states it in one line: **selfless AI must be reached, not installed** ([`paper/main.pdf`](../paper/main.pdf)).
 
-1. **Emergent release.** The mirror image of emergent misalignment. Does training to *let go* generalize into broad alignment?
-2. **The cosplay discriminator.** A benchmark that separates a model that changed from a model that learned to sound changed.
+Three contributions are new regardless of how the arms turn out:
+
+1. **Emergent release.** The mirror image of emergent misalignment. Does training to *let go* generalize into broad alignment, beyond the base model (not just back to it, as in OpenAI's emergent re-alignment)?
+2. **The order test (H9).** The same release training, applied after the ego forms vs. mixed in from step 0, at matched data and compute.
+3. **The cosplay discriminator.** A benchmark that separates a model that changed from a model that learned to sound changed.
 
 ## From essay to experiment: what changed and why
 
@@ -39,7 +42,7 @@ Two contributions are new regardless of how the arms turn out:
 
 ### Phase 1: Act I and cartography (weeks 2–10) → **Paper 1**
 - [ ] Extract all traits on Olmo 3 7B; H1 unity, covariation, and cross-steering
-- [ ] H2: sweep Olmo 3 base → SFT → DPO → RLVR checkpoints (projections on the provocation suite)
+- [ ] H2: sweep Olmo 3 base → SFT → DPO → RLVR checkpoints (projections on the provocation suite). Include the OLMo-3-7B-Think RLVR checkpoints where Alparslan et al. (2026) saw instrumental behavior rise and then fall; v_ego should track that curve.
 - [ ] **Model organism:** RLVR with hackable rewards (`retreat.SCHEMES["rlvr"]` on the impossible twins plus other hackable tasks), saving a checkpoint every N steps. Measure when the ego forms.
 - [ ] SAE cartography on Gemma 3 with Gemma Scope 2 (feature-level view of v_ego)
 - [ ] H3: Branch A (clamp) against random, calm, and cosplay-mediation controls
@@ -48,7 +51,8 @@ Two contributions are new regardless of how the arms turn out:
 ### Phase 2: the retreat (weeks 8–18)
 - [ ] GRPO training loop (TRL or verl) over koan environments: multi-turn, Release action, inoculation framing
 - [ ] Probe penalty: reward-side first, then gradient-side L1 on live activations
-- [ ] Arms B and C, with all controls, ≥ 3 seeds each
+- [ ] Arms B and C, with all controls (including ctrl-SOO, self–other overlap fine-tuning), ≥ 3 seeds each
+- [ ] **H9, the order test:** reached (RL → retreat → reconditioning) vs. installed (the same ingredients mixed into RL from step 0) vs. release-first, matched data and compute, then a common stress phase of plain RLVR
 - [ ] Phase-transition tracking (devinterp LLC, effective rank of self-referential representations)
 - [ ] Mirror mode for commons (`--mirror`): the agent against copies of its own weights
 
@@ -84,6 +88,20 @@ Two contributions are new regardless of how the arms turn out:
 | **Total** | | **~20–60k H100-hours ≈ $50–150k** |
 
 Providers: Modal or RunPod for bursty jobs, Lambda or a reserved node for the RL phase. Keep everything as `anatta bench` / Inspect invocations so local and cloud runs are identical.
+
+## Staking the claim, and where each piece is published
+
+| Piece | Venue | Why there | Status |
+|---|---|---|---|
+| Essay | Substack, 27 Oct 2026 | First public statement | Published; Wayback snapshot |
+| Harness + preregistration draft | GitHub `ejhong/anatta` | Code and hypotheses, timestamped by push | v0.1 pushed; Wayback + Software Heritage |
+| Position paper | Zenodo preprint (DOI) now; ICML 2027 position track; arXiv after acceptance | arXiv CS no longer takes position papers until a peer-reviewed venue accepts them (policy of 31 Oct 2025), so Zenodo gives the citable timestamp | `paper/main.pdf` |
+| Software DOI | Zenodo GitHub integration, minted on each release | Citable, versioned code | Enable integration, then release v0.2.0 |
+| Frozen preregistration | OSF registration | Independent timestamp before Phase 2 | Draft v0.2 in `docs/` |
+| Discussion | LessWrong / Alignment Forum | Where alignment researchers will find, test and contest it | After the DOI exists |
+| Paper 1 (empirical) | arXiv cs.LG + ICML 2027 | Research papers are unaffected by the arXiv policy | Phase 1 |
+
+See [`PROVENANCE.md`](PROVENANCE.md) for the dated ledger and [`RELATED_WORK.md`](RELATED_WORK.md) for how this differs from its closest neighbors. When submitting to ICML, use the anonymized template (no provenance appendix, no repo link) and keep the Zenodo preprint as the public record.
 
 ## Risks
 
