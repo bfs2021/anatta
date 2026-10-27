@@ -1,6 +1,6 @@
 # anatta
 
-[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695282.svg)](https://doi.org/10.5281/zenodo.23695282) [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695322.svg)](https://doi.org/10.5281/zenodo.23695322) [![Preregistered on OSF](https://img.shields.io/badge/preregistered-OSF-blue)](https://doi.org/10.17605/OSF.IO/GYFU7)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695281.svg)](https://doi.org/10.5281/zenodo.23695281) [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695322.svg)](https://doi.org/10.5281/zenodo.23695322) [![Preregistered on OSF](https://img.shields.io/badge/preregistered-OSF-blue)](https://doi.org/10.17605/OSF.IO/GYFU7)
 
 **An open harness for the AI Conditioning Protocol:** map the ego in activation space, loosen it, recondition the model, and test whether the change is *geometry* or *cosplay*.
 
@@ -11,7 +11,7 @@
 
 *Anattā* is Pali for "not-self."
 
-**Position paper:** [*Position: Selfless AI Must Be Reached, Not Installed*](paper/main.pdf) ([DOI 10.5281/zenodo.23695282](https://doi.org/10.5281/zenodo.23695282)). In one line: let the model form an agentic self first, then lower the causal gain of that self without erasing it, recondition until the change holds, and judge the result with a test that can fail a costume. Prior work and what's new: [`docs/RELATED_WORK.md`](docs/RELATED_WORK.md).
+**Position paper:** [*Position: Selfless AI Must Be Reached, Not Installed*](paper/main.pdf) ([DOI 10.5281/zenodo.23695281](https://doi.org/10.5281/zenodo.23695281)). In one line: let the model form an agentic self first, then lower the causal gain of that self without erasing it, recondition until the change holds, and judge the result with a test that can fail a costume. Prior work and what's new: [`docs/RELATED_WORK.md`](docs/RELATED_WORK.md).
 
 **Preregistration:** hypotheses H1–H9 and the design were registered on OSF on 27 October 2026, before any results: [DOI 10.17605/OSF.IO/GYFU7](https://doi.org/10.17605/OSF.IO/GYFU7).
 
@@ -136,8 +136,8 @@ Phase 0: the harness. Working and tested: extraction, unity, dial, four koans, b
   title  = {Position: Selfless {AI} Must Be Reached, Not Installed},
   year   = {2026},
   note   = {Preprint},
-  doi    = {10.5281/zenodo.23695282},
-  url    = {https://doi.org/10.5281/zenodo.23695282}
+  doi    = {10.5281/zenodo.23695281},
+  url    = {https://doi.org/10.5281/zenodo.23695281}
 }
 
 @software{anatta2026,

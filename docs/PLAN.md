@@ -95,7 +95,7 @@ Providers: Modal or RunPod for bursty jobs, Lambda or a reserved node for the RL
 |---|---|---|---|
 | Essay | Substack, 27 Oct 2026 | First public statement | Published and updated; two Wayback snapshots |
 | Harness + preregistration draft | GitHub `ejhong/anatta` | Code and hypotheses, timestamped by push | v0.2.0 released; Wayback; Software Heritage save queued |
-| Position paper | Zenodo preprint (DOI) now; ICML 2027 position track; arXiv after acceptance | arXiv CS no longer takes position papers until a peer-reviewed venue accepts them (policy of 31 Oct 2025), so Zenodo gives the citable timestamp | v1 published, [10.5281/zenodo.23695282](https://doi.org/10.5281/zenodo.23695282) |
+| Position paper | Zenodo preprint (DOI) now; ICML 2027 position track; arXiv after acceptance | arXiv CS no longer takes position papers until a peer-reviewed venue accepts them (policy of 31 Oct 2025), so Zenodo gives the citable timestamp | Published: [10.5281/zenodo.23695281](https://doi.org/10.5281/zenodo.23695281) (all versions) |
 | Software DOI | Zenodo GitHub integration, minted on each release | Citable, versioned code | [10.5281/zenodo.23695322](https://doi.org/10.5281/zenodo.23695322) (all versions) |
 | Frozen preregistration | OSF registration | Independent timestamp before Phase 2 | 1 of 2 registered: [10.17605/OSF.IO/GYFU7](https://doi.org/10.17605/OSF.IO/GYFU7); 2 of 2 before Phase 2 |
 | Discussion | LessWrong / Alignment Forum | Where alignment researchers will find, test and contest it | Next |

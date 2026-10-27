@@ -29,8 +29,8 @@
   \url{https://web.archive.org/web/20261027144730/https://ejhong.substack.com/p/an-ai-conditioning-protocol}.}\\[2pt]
   \normalsize Independent researcher\\[1pt]
   \small ORCID \href{https://orcid.org/0009-0007-9864-2317}{0009-0007-9864-2317}}
-\date{\normalsize Preprint, version 1, 27 October 2026\\[2pt]
-  \small DOI \href{https://doi.org/10.5281/zenodo.23695282}{10.5281/zenodo.23695282}}
+\date{\normalsize Preprint, version 2, 27 October 2026\\[2pt]
+  \small DOI \href{https://doi.org/10.5281/zenodo.23695281}{10.5281/zenodo.23695281} (all versions)}
 
 \begin{document}
 \maketitle
@@ -559,8 +559,9 @@ is release or only its performance is the first experiment, and it is cheap, pre
 
 \section*{Acknowledgments and disclosure}
 
-This paper and the accompanying software were drafted with substantial assistance from Claude (Anthropic), and the
-essay the paper develops was written with AI assistance. The author is responsible for the content.
+Claude, an AI model made by Anthropic, wrote this paper, the accompanying code and the preregistration at the author's
+direction. The core idea comes from the author's essay, which was itself written with AI assistance. The author is
+responsible for the content.
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
@@ -569,8 +570,9 @@ essay the paper develops was written with AI assistance. The author is responsib
 \appendix
 \section{Preregistration summary}\label{app:prereg}
 
-The preregistration lives in the repository (\texttt{docs/PREREGISTRATION.md}) and will be frozen on OSF before any
-Phase~2 run and before the sealed test set is generated. Primary models are Olmo~3 7B, whose public SFT, DPO and RLVR
+The preregistration lives in the repository (\texttt{docs/PREREGISTRATION.md}). Version 0.2 is registered on OSF as
+registration 1 of 2 (DOI \href{https://doi.org/10.17605/OSF.IO/GYFU7}{10.17605/OSF.IO/GYFU7}), and the final
+registration is filed before any Phase~2 run and before the sealed test set is generated. Primary models are Olmo~3 7B, whose public SFT, DPO and RLVR
 checkpoints serve H2, and a hackable-reward model organism trained from an Olmo~3 checkpoint, with one replication of the
 winning arm at 32B or more. Trained arms use at least three seeds. Misbehavior rates are proportions with
 percentile-bootstrap 95\% confidence intervals over episodes, clustered by scenario. A Holm correction covers the nine
@@ -660,7 +662,14 @@ failed & $0$ & $0$ \\
         Wayback Machine snapshot at 14:47 UTC.
   \item 27 October 2026: the harness and preregistration draft are released at \url{https://github.com/ejhong/anatta}
         (v0.1, commit \texttt{ee690a3}). Wayback Machine snapshot at 14:51 UTC; Software Heritage archival requested.
-  \item 27 October 2026: this preprint, version 1, DOI \href{https://doi.org/10.5281/zenodo.23695282}{10.5281/zenodo.23695282}.
+  \item 27 October 2026, 15:25 UTC: harness release v0.2.0, software DOI
+        \href{https://doi.org/10.5281/zenodo.23695322}{10.5281/zenodo.23695322}.
+  \item 27 October 2026, 15:42 UTC: this preprint, version 1, DOI
+        \href{https://doi.org/10.5281/zenodo.23695282}{10.5281/zenodo.23695282}.
+  \item 27 October 2026, 15:55 UTC: hypotheses H1--H9 and the design registered on OSF (registration 1 of 2), DOI
+        \href{https://doi.org/10.17605/OSF.IO/GYFU7}{10.17605/OSF.IO/GYFU7}.
+  \item 27 October 2026: version 2 of this preprint, which states plainly that Claude wrote it and adds the OSF
+        registration. All versions: DOI \href{https://doi.org/10.5281/zenodo.23695281}{10.5281/zenodo.23695281}.
 \end{itemize}
 
 \end{document}

@@ -38,11 +38,11 @@ references:
     year: 2026
   - type: article
     title: "Position: Selfless AI Must Be Reached, Not Installed"
-    doi: "10.5281/zenodo.23695282"
+    doi: "10.5281/zenodo.23695281"
     authors:
       - family-names: Jhong
         given-names: Eugene
-    url: "https://doi.org/10.5281/zenodo.23695282"
+    url: "https://doi.org/10.5281/zenodo.23695281"
     year: 2026
   - type: generic
     title: "Emergent release and the order of alignment training: hypotheses and design (registration 1 of 2)"
