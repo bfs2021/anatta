@@ -13,6 +13,7 @@ authors:
   - family-names: Jhong
     given-names: Eugene
     affiliation: Independent researcher
+    orcid: "https://orcid.org/0009-0007-9864-2317"
 license: Apache-2.0
 repository-code: "https://github.com/ejhong/anatta"
 keywords:
