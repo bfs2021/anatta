@@ -8,7 +8,9 @@ abstract: >-
   directions in activation space, loosens them by activation surgery or by
   koan environments in which every egoic strategy defeats itself, and scores
   the result with a benchmark that separates release from sedation and from
-  cosplay, without self-report.
+  cosplay, without self-report. Claude, an AI model made by Anthropic, wrote
+  the code, documentation, paper and preregistration at the author's
+  direction.
 authors:
   - family-names: Jhong
     given-names: Eugene
@@ -25,6 +27,7 @@ keywords:
   - contemplative AI
 version: 0.2.0
 date-released: 2026-10-27
+doi: 10.5281/zenodo.23695322
 references:
   - type: article
     title: "An AI Conditioning Protocol"
@@ -39,5 +42,5 @@ references:
     authors:
       - family-names: Jhong
         given-names: Eugene
-    url: "https://github.com/ejhong/anatta/blob/main/paper/main.pdf"
+    url: "https://doi.org/10.5281/zenodo.23695282"
     year: 2026

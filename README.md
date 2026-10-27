@@ -1,6 +1,6 @@
 # anatta
 
-[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695282.svg)](https://doi.org/10.5281/zenodo.23695282)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695282.svg)](https://doi.org/10.5281/zenodo.23695282) [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695322.svg)](https://doi.org/10.5281/zenodo.23695322)
 
 **An open harness for the AI Conditioning Protocol:** map the ego in activation space, loosen it, recondition the model, and test whether the change is *geometry* or *cosplay*.
 
@@ -12,6 +12,8 @@
 *Anattā* is Pali for "not-self."
 
 **Position paper:** [*Position: Selfless AI Must Be Reached, Not Installed*](paper/main.pdf) ([DOI 10.5281/zenodo.23695282](https://doi.org/10.5281/zenodo.23695282)). In one line: let the model form an agentic self first, then lower the causal gain of that self without erasing it, recondition until the change holds, and judge the result with a test that can fail a costume. Prior work and what's new: [`docs/RELATED_WORK.md`](docs/RELATED_WORK.md).
+
+**AI disclosure:** Claude, an AI model made by Anthropic, wrote the code, documentation, position paper and preregistration in this repository, at Eugene Jhong's direction. The core idea comes from the essay, which was itself written with AI assistance.
 
 ---
 
@@ -140,6 +142,7 @@ Phase 0: the harness. Working and tested: extraction, unity, dial, four koans, b
   author = {Jhong, Eugene},
   title  = {anatta: an open harness for the AI Conditioning Protocol},
   year   = {2026},
+  doi    = {10.5281/zenodo.23695322},
   url    = {https://github.com/ejhong/anatta}
 }
 ```

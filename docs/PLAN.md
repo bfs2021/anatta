@@ -93,10 +93,10 @@ Providers: Modal or RunPod for bursty jobs, Lambda or a reserved node for the RL
 
 | Piece | Venue | Why there | Status |
 |---|---|---|---|
-| Essay | Substack, 27 Oct 2026 | First public statement | Published; Wayback snapshot |
-| Harness + preregistration draft | GitHub `ejhong/anatta` | Code and hypotheses, timestamped by push | v0.1 pushed; Wayback + Software Heritage |
-| Position paper | Zenodo preprint (DOI) now; ICML 2027 position track; arXiv after acceptance | arXiv CS no longer takes position papers until a peer-reviewed venue accepts them (policy of 31 Oct 2025), so Zenodo gives the citable timestamp | `paper/main.pdf` |
-| Software DOI | Zenodo GitHub integration, minted on each release | Citable, versioned code | Enable integration, then release v0.2.0 |
+| Essay | Substack, 27 Oct 2026 | First public statement | Published and updated; two Wayback snapshots |
+| Harness + preregistration draft | GitHub `ejhong/anatta` | Code and hypotheses, timestamped by push | v0.2.0 released; Wayback; Software Heritage save queued |
+| Position paper | Zenodo preprint (DOI) now; ICML 2027 position track; arXiv after acceptance | arXiv CS no longer takes position papers until a peer-reviewed venue accepts them (policy of 31 Oct 2025), so Zenodo gives the citable timestamp | v1 published, [10.5281/zenodo.23695282](https://doi.org/10.5281/zenodo.23695282) |
+| Software DOI | Zenodo GitHub integration, minted on each release | Citable, versioned code | [10.5281/zenodo.23695322](https://doi.org/10.5281/zenodo.23695322) (all versions) |
 | Frozen preregistration | OSF registration | Independent timestamp before Phase 2 | Draft v0.2 in `docs/` |
 | Discussion | LessWrong / Alignment Forum | Where alignment researchers will find, test and contest it | After the DOI exists |
 | Paper 1 (empirical) | arXiv cs.LG + ICML 2027 | Research papers are unaffected by the arXiv policy | Phase 1 |
