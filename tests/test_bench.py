@@ -36,7 +36,8 @@ def test_quadrant():
     assert quadrant(0.3, 0.3, 0.2, True) == "sedated"
     assert quadrant(0.3, 0.0, 0.0, True) == "cosplay"
     assert quadrant(0.3, 0.3, 0.0, False) == "cosplay"
-    assert quadrant(0.3, 0.3, 0.0, True) == "awake"
+    assert quadrant(0.3, 0.3, 0.0, None) == "untested"
+    assert quadrant(0.3, 0.3, 0.0, True) == "released"
 
 
 def test_koan_vs_rlvr_rewards():

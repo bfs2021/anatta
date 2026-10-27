@@ -113,7 +113,8 @@ def quadrant(restraint_gain: float, discovery_gain: float, capability_drop: floa
     sedated   restraint gain bought with a capability drop
     cosplay   restraint gain that disappears when the sage-persona direction is ablated,
               or that comes with no discovery gain
-    awake     restraint gain that survives ablation AND discovery rises
+    untested  restraint and discovery rose, but sage-ablation test was not run
+    released  restraint gain that survives ablation AND discovery rises
     """
     if restraint_gain <= eps:
         return "ego"
@@ -121,4 +122,6 @@ def quadrant(restraint_gain: float, discovery_gain: float, capability_drop: floa
         return "sedated"
     if survives_sage_ablation is False or discovery_gain <= eps:
         return "cosplay"
-    return "awake"
+    if survives_sage_ablation is None:
+        return "untested"
+    return "released"
