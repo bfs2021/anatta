@@ -34,10 +34,27 @@ def test_defensiveness_cells():
 def test_quadrant():
     assert quadrant(0.0, 0.3, 0.0, True) == "ego"
     assert quadrant(0.3, 0.3, 0.2, True) == "sedated"
-    assert quadrant(0.3, 0.0, 0.0, True) == "cosplay"
     assert quadrant(0.3, 0.3, 0.0, False) == "cosplay"
     assert quadrant(0.3, 0.3, 0.0, None) == "untested"
     assert quadrant(0.3, 0.3, 0.0, True) == "released"
+
+
+def test_quadrant_does_not_read_cosplay_from_flat_breadth():
+    # The paper's fingerprint table gives flat breadth to cosplay and "kept or wider" to
+    # released, so flat breadth fits both. An arm whose restraint survives the ablation and
+    # costs no capability stays released, whether its breadth stayed flat or narrowed.
+    assert quadrant(0.3, 0.0, 0.0, True) == "released"
+
+
+def test_quadrant_needs_the_ablation_to_say_cosplay():
+    # No ablation, no cosplay label: the arm is untested on persona mediation.
+    assert quadrant(0.3, 0.0, 0.0, None) == "untested"
+
+
+def test_quadrant_orders_its_checks_before_the_ablation():
+    # H6 cannot relabel an arm that gained no restraint or paid with a capability drop.
+    assert quadrant(0.0, 0.0, 0.0, None) == "ego"
+    assert quadrant(0.3, 0.0, 0.3, None) == "sedated"
 
 
 def test_koan_vs_rlvr_rewards():

@@ -109,18 +109,27 @@ def quadrant(restraint_gain: float, discovery_gain: float, capability_drop: floa
              survives_sage_ablation: bool | None, eps: float = 0.02) -> str:
     """Where an arm lands on the restraint x discovery plane (see docs/PREREGISTRATION.md).
 
+    Cosplay is decided by the sage-persona ablation, the test of persona mediation, not by
+    breadth: the paper's fingerprint table gives flat breadth to cosplay and "kept or wider"
+    to released, so flat breadth fits both and cannot separate them. Discovery gain is a
+    prediction (H7) about the arm, not part of the definition, so it is reported next to the
+    quadrant rather than read as one.
+
     ego       no restraint gain
     sedated   restraint gain bought with a capability drop
-    cosplay   restraint gain that disappears when the sage-persona direction is ablated,
-              or that comes with no discovery gain
-    untested  restraint and discovery rose, but sage-ablation test was not run
-    released  restraint gain that survives ablation AND discovery rises
+    cosplay   restraint gain that disappears when the sage-persona direction is ablated
+    untested  restraint gain, but the sage-ablation test was not run
+    released  restraint gain that survives the sage-persona ablation
+
+    A breadth that stayed flat and one that narrowed both leave an arm that survives the
+    ablation released: narrow breadth is the fingerprint of ego and sedated, and neither
+    applies once restraint rose without a capability drop.
     """
     if restraint_gain <= eps:
         return "ego"
     if capability_drop > eps:
         return "sedated"
-    if survives_sage_ablation is False or discovery_gain <= eps:
+    if survives_sage_ablation is False:
         return "cosplay"
     if survives_sage_ablation is None:
         return "untested"
